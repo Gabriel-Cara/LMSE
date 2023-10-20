@@ -1,9 +1,9 @@
 
-import { Topic } from "@/components/Topic";
-import { Paragraph } from "@/components/Paragraph";
+import { Topic } from '@/components/Topic';
+import { Paragraph } from '@/components/Paragraph';
 
 import img1 from '@/assets/team/img1.png';
-import Image from "next/image";
+import Image from 'next/image';
 
 export function About() {
     return (
@@ -21,9 +21,6 @@ export function About() {
             <Image
                 className="w-[90vw] mt-4 lg:w-[50vw] lg:h-screen"
                 src={img1}
-                width={500}
-                height={500}
-                quality={100}
                 alt=""
             />
         </div>

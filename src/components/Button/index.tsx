@@ -1,7 +1,7 @@
 interface Props {
     name: string;
     custom?: string;
-    type?: "DEFAULT" | "COMIC" | "DARK";
+    type?: 'DEFAULT' | 'COMIC' | 'DARK';
 }
 
 const COMIC = "inline-block px-4 py-2 font-bold text-white text-center bg-sky-500 border-2 border-black shadow-[5px_5px_0px_#000] rounded-xl mx-auto hover:bg-white hover:text-sky-500 hover:border-sky-500 hover:shadow-sky-500 active:bg-sky-400 active:text-white active:shadow-none active:transform-[translateY(4px)] duration-300";

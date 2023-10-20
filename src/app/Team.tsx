@@ -1,5 +1,5 @@
-import { Carrossel } from "@/components/Carrossel";
-import { Topic } from "@/components/Topic";
+import { Carrossel } from '@/components/Carrossel';
+import { Topic } from '@/components/Topic';
 
 
 export function Team() {

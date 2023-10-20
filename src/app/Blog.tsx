@@ -1,5 +1,6 @@
-import { Paragraph } from "@/components/Paragraph";
-import { Topic } from "@/components/Topic";
+import { Paragraph } from '@/components/Paragraph';
+import { Topic } from '@/components/Topic';
+
 
 export function Blog() {
     return (

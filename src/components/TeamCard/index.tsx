@@ -1,7 +1,7 @@
-import Image, { StaticImageData } from "next/image";
+import Image, { StaticImageData } from 'next/image';
 
-import { Paragraph } from "../Paragraph";
-import { Topic } from "../Topic";
+import { Paragraph } from '../Paragraph';
+import { Topic } from '../Topic';
 
 interface TeamCardProps {
     list: string[]

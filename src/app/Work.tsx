@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import work from "@/assets/fundo/work-pattern.png";
+import work from '@/assets/fundo/work-pattern.png';
 
-import { Paragraph } from "@/components/Paragraph";
-import { Topic } from "@/components/Topic";
+import { Paragraph } from '@/components/Paragraph';
+import { Topic } from '@/components/Topic';
 
 export function Work() {
     return (

@@ -4,7 +4,7 @@ interface Props {
     custom?: string;
 }
 
-const style = "w-fit font-bold text-3xl text-stone-700 mx-2 my-4 after:block after:relative after:bg-sky-400 after:h-px after:w-2/5"
+const style = "w-fit font-bold text-3xl text-stone-700 mx-5 my-4 after:block after:relative after:bg-sky-400 after:h-px after:w-2/5"
 
 export function Topic({ name, reverse, custom }: Props) {
     return <h1 className={

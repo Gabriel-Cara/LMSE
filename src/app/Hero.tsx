@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 import hero from '@/assets/fundo/hero-pattern.png'
 

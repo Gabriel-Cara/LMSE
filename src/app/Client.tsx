@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import clients from "@/assets/fundo/clients-pattern.png";
+import clients from '@/assets/fundo/clients-pattern.png';
 
-import { Topic } from "@/components/Topic";
+import { Topic } from '@/components/Topic';
 
 export function Client() {
     return (
