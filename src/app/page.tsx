@@ -21,7 +21,6 @@ export default function App() {
       <Hero />
       <About />
       <Service />
-      <Partner />
       <Team />
       <Blog />
       <Client />
