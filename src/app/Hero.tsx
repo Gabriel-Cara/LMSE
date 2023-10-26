@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import hero from '@/assets/fundo/hero-pattern.png'
+import HERO from '../assets/fundo/hero-pattern.png'
 
 export function Hero() {
     return (
@@ -8,7 +8,7 @@ export function Hero() {
             <div id="video" className="h-screen lg:h-max max-w-screen pt-[calc(100vh-92vh)]">
                 <Image
                     className="object-cover absolute -z-10"
-                    src={hero}
+                    src={HERO}
                     fill={true}
                     alt="Hero Image"
                 />

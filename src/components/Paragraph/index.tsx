@@ -3,7 +3,7 @@ interface Props {
     reverse?: boolean;
 }
 
-const style = "mx-8 font-medium text-stone-600 text-lg text-justify text-";
+const style = "mx-8 font-medium text-stone-600 text-lg text-";
 
 export function Paragraph({ reverse, content }: Props) {
     return(

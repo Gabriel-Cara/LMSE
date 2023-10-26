@@ -1,6 +1,6 @@
-import Abimed from '@/assets/logos/logo-abimed.png'
-import Uniacomac from '@/assets/logos/logo-uniacomac.png'
-import Uniampar from '@/assets/logos/logo-uniampar.png'
+import ABIMED from '../assets/logos/logo-abimed.png'
+import UNIACOMAC from '../assets/logos/logo-uniacomac.png'
+import UNIAMPAR from '../assets/logos/logo-uniampar.png'
 import { Paragraph } from '@/components/Paragraph';
 import { Topic } from '@/components/Topic';
 
@@ -12,15 +12,15 @@ export function College() {
             <Topic name="Universidades Corporativas LMSE" />
             <div className="flex flex-col flex-wrap md:flex-row gap-10 items-center justify-center mx-5 my-16 max-[80vw]">
                 <Image
-                    src={Abimed}
+                    src={ABIMED}
                     alt="Logo Uniabimed"
                 />
                 <Image
-                    src={Uniacomac}
+                    src={UNIACOMAC}
                     alt="Logo Uniacomac"
                 />
                 <Image
-                    src={Uniampar}
+                    src={UNIAMPAR}
                     alt="Logo Uniampar"
                 />
             </div>

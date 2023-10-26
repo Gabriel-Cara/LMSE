@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import work from '@/assets/fundo/work-pattern.png';
+import WORK from '../assets/fundo/work-pattern.png';
 
 import { Paragraph } from '@/components/Paragraph';
 import { Topic } from '@/components/Topic';
@@ -11,7 +11,7 @@ export function Work() {
             <Topic name="Como Trabalhamos – Programa UniCa, Universidade Corporativa Aplicada" />
             <Image
                 className="w-[90vw] lg:w-[40vw] mx-auto my-8"
-                src={work}
+                src={WORK}
                 alt="Work Pattern"
             />
             <ul className="mx-5 lg:ml-10">

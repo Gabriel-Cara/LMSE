@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import clients from '@/assets/fundo/clients-pattern.png';
+import CLIENTS from '../assets/fundo/clients-pattern.png';
 
 import { Topic } from '@/components/Topic';
 
@@ -12,7 +12,7 @@ export function Client() {
 
                 <Image
                     style={{ objectFit: "cover", marginInline: "auto" }}
-                    src={clients}
+                    src={CLIENTS}
                     alt=""
                 />
             </div>

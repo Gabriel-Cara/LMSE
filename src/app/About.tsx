@@ -2,7 +2,7 @@
 import { Topic } from '@/components/Topic';
 import { Paragraph } from '@/components/Paragraph';
 
-import img1 from '@/assets/team/img1.png';
+import IMG from '@/assets/team/img1.png';
 import Image from 'next/image';
 
 export function About() {
@@ -20,7 +20,7 @@ export function About() {
             </div>
             <Image
                 className="w-[90vw] mt-4 lg:w-[50vw] lg:h-screen"
-                src={img1}
+                src={IMG}
                 alt=""
             />
         </div>
