@@ -20,7 +20,7 @@ export function About() {
             </div>
             <Image
                 className="w-[90vw] mt-4 lg:w-[50vw] lg:h-screen"
-                src={img}
+                src={IMG}
                 alt=""
             />
         </div>
